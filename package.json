@@ -4,7 +4,7 @@
   "description": "Step by step of building projects with webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack index.js dist/build.js"
+    "build": "webpack index.js dist/build.js --watch"
   },
   "keywords": [
     "webpack",
