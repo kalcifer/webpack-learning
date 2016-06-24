@@ -1,9 +1,11 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
 	entry: './src/index.js',
 	output: {
 		filename: 'bundle.js',
-		path: 'dist/',
-		publicPath:'dist/'
+		path: 'dist',
+		publicPath: 'dist/'
 	},
 	module: {
 		loaders: [{
@@ -14,5 +16,12 @@ module.exports = {
 				presets: ['es2015']
 			}
 		}]
-	}
+	},
+	plugins:[
+		new HtmlWebpackPlugin({
+			template: 'assets/index.html',
+			filename: '../index.html',
+			inject: true
+		})
+	]
 }

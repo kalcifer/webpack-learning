@@ -6,3 +6,4 @@ This is me learning webpack and its features. At each commit, I will learn a new
 004:moving to configuration file
 005:converting to ES6 using babel-loader
 006:adding webpack-dev-server
+007:generate index.html with htmlwebpackplugin
