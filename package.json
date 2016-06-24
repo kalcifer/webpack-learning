@@ -1,0 +1,18 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "Step by step of building projects with webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack index.js dist/build.js"
+  },
+  "keywords": [
+    "webpack",
+    "tutorial"
+  ],
+  "author": "pavithra.kodmad@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
