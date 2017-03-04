@@ -1,3 +1,5 @@
+import styles from './styles.css';
+
 const dosomething = () => {
 	document.getElementById('root').innerHTML = "<button>I will fetch a remote thing.</button>";
 	var button = document.getElementsByTagName('button')[0];
